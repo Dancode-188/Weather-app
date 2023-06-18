@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather app</title>
+</head>
+<body>
+  <div id="weather-container">
+    <h2>Weather App</h2>
+    <input type="text" id="location-input" placeholder="Enter location">
+    <button onclick="fetchWeatherData()">Get Weather</button>
+    <button onclick="fetchWeatherDataByLocation()">Get weather at my location</button>
+    <div id="weather-data">
+      <p>Loading weather data...</p>
+    </div>
+    <div id="temperature-toggle">
+      <label for="temperature-unit">Temperature Unit:</label>
+      <input type="radio" name="temperature-unit" id="celsius" value="metric" checked>
+      <label for="celsius">Celsius</label>
+      <input type="radio" name="temperature-unit" id="fahrenheit" value="imperial">
+      <label for="fahrenheit">fahrenheit</label>
+    </div>
+    <div id="wind-speed-toggle">
+      <label for="wind-speed-unit">Wind Speed Unit:</label>
+      <input type="radio" name="wind-speed-unit" id="kilometers" value="metric" checked>
+      <label for="kilometers">km/h</label>
+      <input type="radio" name="wind-speed-unit" id="miles" value="imperial">
+      <label for="miles">m/h</label>
+    </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>

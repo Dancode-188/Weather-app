@@ -1,0 +1,29 @@
+{
+  "name": "weather-app",
+  "version": "1.0.0",
+  "description": "A weather app that shows real-time data",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dancode-188/Weather-app.git"
+  },
+  "keywords": [
+    "Weather"
+  ],
+  "author": "Daniel Bitengo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dancode-188/Weather-app/issues"
+  },
+  "homepage": "https://github.com/Dancode-188/Weather-app#readme",
+  "devDependencies": {
+    "webpack": "^5.84.1",
+    "webpack-cli": "^5.1.1"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  }
+}
